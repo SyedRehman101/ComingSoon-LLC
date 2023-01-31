@@ -23,11 +23,11 @@ const Page = () => {
                 </div>
                 <br />
                 <div>
-                    <p className='text-3xl font-bold text-white flex justify-center items-center'>{countryName} <img src={flag} width="50px" style={{ margin: "10px" }} />  Own Crypto <span className='text-orange-400'>Wallet</span></p>
+                    <p className=' text-xl sm:text-3xl font-bold text-white flex justify-center items-center'>{countryName} <img src={flag} width="50px" style={{ margin: "10px" }} />  Own Crypto <span className='text-orange-400'>Wallet</span></p>
                 </div>
                 <br />
                 <div>
-                    <p className='text-3xl font-bold text-white'>TheCryptoWallet</p>
+                    <p className='text-2xl sm:text-3xl font-bold text-white'>TheCryptoWallet</p>
                 </div>
                 <br />
                 <div>

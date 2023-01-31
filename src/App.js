@@ -1,5 +1,6 @@
 import React from 'react'
 import background from "./assets/img/bg.png";
+import Background from './components/Background';
 import Page from './components/Page';
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
       width: '100vw',
       height: '100vh'
     }}>
-      <Page/>
+      <Background />
+      <Page />
     </div>
   )
 }
